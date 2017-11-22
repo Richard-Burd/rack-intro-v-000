@@ -5,9 +5,9 @@ class Application
     resp.write "Hello, my name is Something"
     resp.write "\nThe time right now is: #{Time.now}"
 
-    num_1 = Kernel.rand(1..20)
-    num_2 = Kernel.rand(1..20)
-    num_3 = Kernel.rand(1..20)
+    num_1 = Kernel.rand(1..3)
+    num_2 = Kernel.rand(1..3)
+    num_3 = Kernel.rand(1..3)
 
     if num_1==num_2 && num_2==num_3
       resp.write "You Win"
