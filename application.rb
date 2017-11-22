@@ -9,7 +9,7 @@ class Application
     num_2 = Kernel.rand(1..3)
 
     if num_1==num_2
-      resp.write "You Win"
+      resp.write "\n\n\nYou Win"
     else
       resp.write "\n\n\nYou Lose"
     end
