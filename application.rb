@@ -12,7 +12,7 @@ class Application
     if num_1==num_2 && num_2==num_3
       resp.write "You Win"
     else
-      resp.write "\nYou Lose"
+      resp.write "\n\n\nYou Lose"
     end
 
     resp.finish
